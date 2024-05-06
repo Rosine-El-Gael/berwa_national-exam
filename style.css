@@ -1,0 +1,142 @@
+.navbar-nav{
+    padding-left: -40em;
+}
+.nav-link{
+    color:darkcyan;
+    font-size: large;
+    transition: 0.2s ease-in-out;
+}
+.nav-link:hover{
+    color: darkred;
+    font-weight: bold;
+}
+.nav-item{
+    position: relative;
+}
+::after{
+    content: '';
+    background-color: yellow;
+    width: 0;
+    height: 2.5px;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+}
+.nav-item:hover::after{
+    width: 100%;
+}
+.btn-sm{
+    margin-right:7rem;
+    width: -20em;
+    /* border-radius: 40px; */
+    transition: 0.3s ease-in-out;
+    color: orange;
+    background-color: black; 
+    border-bottom: 2px solid darkred;
+}
+#Service .bt{
+    background-color: red;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 5px;
+    transition: 0.5s ease-in-out;
+}
+#Service:hover ul{
+    color: black;
+}
+#Service a:hover{
+    background-color: aqua;
+}
+navbar .btn:hover{
+    color: black;
+    font-weight: bold;
+    background-color: darkred;
+}
+.icon {
+    width: 20px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 2px; /* Add margin between icons */
+    border-radius: 10px;
+}
+.slideshow{
+    height: 10px;
+}
+.lead button{
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    margin-top: 25px;
+    border-bottom: 2px solid wheat;
+    border-left: 2px solid wheat;
+ }
+.btnn{
+    color: white;
+    background-color: darkcyan;
+    margin-top: 25px;
+    border-radius: 15px;
+    margin-left: 32em;
+    width: 15em;
+    height: 3em;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+ }
+ .btnn:hover{
+    color: white;
+ }
+ .error{
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    color: red;
+    height: 20px;
+ }
+.modal-footer{
+    justify-content: center;
+ }
+ .fbtn.btn-primary {
+    width: 10em; /* Adjust the width as needed */
+   border-radius: 20px;
+    border: none;
+}
+.carousel-inner{
+    height: 35em;
+}
+
+/* Additional custom styles can be added here */
+        /* Adjustments for responsiveness */
+        @media (max-width: 768px) {
+            .navbar .icon {
+                display: none;
+            }
+            .navbar-collapse {
+                margin-top: 1rem;
+                text-align: center;
+            }
+            .navbar-toggler {
+                margin-right: -1em;
+            }
+            .navbar-toggler-icon {
+                background-color: #fff;
+            }
+            .btn {
+                margin-top: 1em;
+                margin-left:13em;
+            }
+            .btnn {
+                margin-top: 1em;
+                margin-left:6em;
+            }
+            .carousel-inner{
+                display:none;
+            }
+            
+        }
+
+        @media (max-width: 575.98px) {
+            .navbar-brand {
+                font-size: 1.5rem;
+            }
+        }
+
